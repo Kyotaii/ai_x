@@ -1,0 +1,27 @@
+1절. 리스트 : [타입과 관련없는 0개 이상의 데이터들]
+	len(lst) : 데이터 갯수 *요소 갯수(책)
+	min(lst), max(lst), sum(lst) : 최소, 최대, 합 (*average는 없는데~?)
+	data in list : lst안의 data 요소가 있는지 여부
+	lst[idx], lst[from:stop:step] 인덱싱과 슬라이싱
+	추가 : lst.append(value), lst.insert(idx, value)
+	삭제 : lst.pop( ), lst.pop(idx), lst.remove(data)
+	찾기 : lst.index(data) > lst.cound(data)
+	*찾기전에 오류날 수 있음 > data in lst 활용
+	정렬 : lst.sort(reverse=True)
+	역순 : lst.reverse()
+
+2절. 튜플 : tup = (data. ) 수정 불가  (추가/삭제정렬/역순 x)
+	len(tup) : 데이터 갯수 *요소 갯수(책)
+	min(tup), max(tup), sum(tup) : 최소, 최대, 합 (*average는 없는데~?)
+	data in tup : tup안의 data 요소가 있는지 여부
+	tup[idx], tup[from:stop:step] 인덱싱과 슬라이싱
+	찾기 : tup.index(data) > lst.cound(data)
+
+3절. 딕셔너리 dic = [key1.value1, key2:value2, ...)
+	읽기: dic[key[key1], 	dic.get(key1)
+	수정: dic[key1] 수정할 데이터
+	제거: del dic[key1]. dic.pip(key1)
+	추가: dic[key9] = value9
+	dic.keys() / dic.values() / dic.items()
+4절. 셋 s = {data1, data2, data3} => {data1, data2} 중복허용안함, 순서없음(인덱스 없음)
+	추가: 

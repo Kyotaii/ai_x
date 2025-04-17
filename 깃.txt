@@ -1,0 +1,7 @@
+git add .      >모든
+git note
+git source
+git commit -m
+
+git push 안올라간거
+git remove -v 여기로
